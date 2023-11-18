@@ -114,6 +114,46 @@ article blockquote {
     font-size: 1.1em;
 }
 
+#table {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+
+    border-collapse: collapse;
+    border: 3px solid black;
+    
+    text-align: center;
+
+}
+
+#table th {
+    border: 3px solid black;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+}
+
+#table td {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+#table tr:nth-child(even) {
+    background-color: gray;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+}
+
+code pre {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-wrap: balance;
+}
+
 .img_source {
     text-align: center;
     width: auto;
