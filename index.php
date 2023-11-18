@@ -11,8 +11,8 @@
                 <img src="images/LogoCropped.png" alt="Logo">
             </div>
             <div class="navbar"> <!-- On utilisera div pour eviter le point generer par <ul> -->
-                <a href="#home">Home</a>
-                <a href="#news">Cours</a>
+                <a href="index.php">Home</a>
+                <a href="courses.php">Cours</a>
                 <div class="dropdown">
                     <button class="dropbtn">Exercises
                     <i class="fa fa-caret-down"></i>
