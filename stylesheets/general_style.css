@@ -1,7 +1,9 @@
+@import "style_index.css";
+
 body {
     background-color: rgb(87, 81, 81);
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     color: white;
@@ -74,4 +76,41 @@ footer {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+article {
+    /* Articles are centered */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+article h1 {
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img_source {
+    text-align: center;
+    width: auto;
+    font-size: small;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    padding-bottom: 5px;
 }
