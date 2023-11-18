@@ -2,17 +2,26 @@
     <head>
         <title>GT.com</title>
         <link rel="stylesheet" href="stylesheets/general_style.css">
-        <link rel="stylesheet" href="stylesheets/style_index.css">
         <link rel="icon" href="images/GraphTheoryLogo.ico">
     </head>
     <body>
         <header>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="graphs.php">Graphs</a></li>
-                <li><a href="algorithms.php">Algorithms</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
+            <div class="navbar"> <!-- On utilisera div pour eviter le point generer par <ul> -->
+                <a href="#home">Home</a>
+                <a href="#news">Cours</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="exercises.php">Liste des exercises</a>
+                    <a href="#">Ex1</a>
+                    <a href="#">Ex2</a>
+                    </div>
+                </div>
+                <a href="projects.php">Projets</a>
+                <a href="about.php">About</a>
+            </div>
 
         </header>
 
