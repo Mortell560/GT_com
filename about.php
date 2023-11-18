@@ -31,7 +31,16 @@
 
         <section>
             <article>
-                
+                <h1>
+                    Created by:
+                </h1>
+                <img src="images/photo.png" alt="photo">
+                <p>Apparemment je peux pas mettre d'infos personnelles donc je vais mettre des informations concernant des tortues:</p>
+                <ul>
+                    <li><i>Quelques tortues peuvent hiberner dans l'eau et surtout sous la glace</i></li>
+                    <li><i>Le Kenya et la Tanzanie possède une espèce de tortue qui ont évolué en pancake pour s'adapter aux rochers sur place:</i></li>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S1y4NlI8e1Q?si=goPE8lueYjVm_R1a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </ul>
             </article>
         </section>
 
