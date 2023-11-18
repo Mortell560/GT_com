@@ -35,7 +35,7 @@
                     Created by:
                 </h1>
                 <img src="images/photo.png" alt="photo">
-                <p>Apparemment je peux pas mettre d'infos personnelles donc je vais mettre des informations concernant des tortues:</p>
+                <p>Apparemment, je peux pas mettre d'infos personnelles donc je vais mettre des informations concernant des tortues:</p>
                 <ul>
                     <li><i>Quelques tortues peuvent hiberner dans l'eau et surtout sous la glace</i></li>
                     <li><i>Le Kenya et la Tanzanie possède une espèce de tortue qui ont évolué en pancake pour s'adapter aux rochers sur place:</i></li>
