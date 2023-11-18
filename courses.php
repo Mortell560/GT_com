@@ -32,7 +32,7 @@
 
         <section>
             <article>
-                <h1>Choissiez votre cours</h1>
+                <h1 id="Title">Choisissez votre cours</h1>
                 <ol class="selection">
                     <li><a href="courses/course1.php">Histoire de la Théorie des Graphes</a></li>
                     <li><a href="courses/course2.php">Les Graphes: Définitions et notions formelles</a></li>

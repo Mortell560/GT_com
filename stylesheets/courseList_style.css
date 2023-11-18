@@ -21,3 +21,10 @@
 .selection li:hover {
     background-color: #e6e6e6;
 }
+
+#Title {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
