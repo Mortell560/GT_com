@@ -4,6 +4,7 @@
         <title>GT.com</title>
         <link rel="icon" href="../images/GraphTheoryLogo.ico">
         <link rel="stylesheet" href="../stylesheets/general_style.css">
+        <link rel="stylesheet" href="../stylesheets/course_style.css">
     </head>
 
     <body>
@@ -31,7 +32,13 @@
 
 
         <section>
+            <article>
 
+            </article>
+            <div id="NextSection">
+                <a href="course2.php"><button>Graphes: Définitions et Notions</button></a>
+                <a href="course4.php"><button>Quelques structures de données utiles et implémentations</button></a>
+            </div>
         </section>
 
 

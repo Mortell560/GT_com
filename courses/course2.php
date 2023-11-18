@@ -34,7 +34,7 @@
         <section>
             <article>
                 <h1>
-                    Définitions
+                    Définitions & Notions
                 </h1>
 
                 <p>Un <b><em>graphe</em></b> est un couple G = (V,E) comprenant deux ensembles :</p>
@@ -55,6 +55,13 @@
                         <p>Source: <a href="https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_graphes#/media/Fichier:6n-graf.svg">https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_graphes#/media/Fichier:6n-graf.svg</a></p>
                 </div>
 
+                <p>Un graphe <em><b>complet</b></em> est un graphe simple dont tous les sommets sont adjacents deux à deux, c'est-à-dire que tout couple de sommets disjoints est relié par une arête. Si le graphe est orienté, on dit qu'il est complet si chaque paire de sommets est reliée par exactement deux arcs (un dans chaque sens).</p>
+                <div class="img_source">
+                        <img src="../images/Complete_graph_K5.svg" alt="Graphe complet K5">
+                        <p>Source: <a href="https://fr.wikipedia.org/wiki/Graphe_complet#/media/Fichier:Complete_graph_K5.svg">https://fr.wikipedia.org/wiki/Graphe_complet#/media/Fichier:Complete_graph_K5.svg</a></p>
+                </div>
+
+                <p>Un graphe <b><em>planaire</em></b> est un graphe qui a la particularité de pouvoir se représenter sur un plan sans qu'aucune arête (ou arc pour un graphe orienté) n'en croise une autre. Autrement dit, ces graphes sont précisément ceux que l'on peut plonger dans le plan, ou encore les graphes dont le nombre de croisements est nul.</p>
                 <p>Un <em><b>arbre</b></em> est un graphe qui vérifie les propriétés suivantes :</p>
                 <ul>
                     <li><em><b>Connexité</b></em> : il est toujours possible d'aller d'un sommet à l'autre par un chemin d'arêtes. Dans le cas de la carte routière, cela revient à dire qu'il est toujours possible d'aller d'une ville à l'autre par la route.</li>
