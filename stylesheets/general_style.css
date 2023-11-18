@@ -108,6 +108,12 @@ article iframe {
     width: 50%;
 }
 
+article blockquote {
+    font-style: italic;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
 .img_source {
     text-align: center;
     width: auto;
