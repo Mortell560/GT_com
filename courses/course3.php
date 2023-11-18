@@ -31,7 +31,11 @@
 
 
         <section>
+            <h1>
+                Théorèmes et propriétés utiles
+            </h1>
 
+            <p></p>
         </section>
 
 

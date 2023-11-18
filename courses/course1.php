@@ -3,6 +3,7 @@
         <title>GT.com</title>
         <link rel="stylesheet" href="../stylesheets/general_style.css">
         <link rel="icon" href="../images/GraphTheoryLogo.ico">
+        <link rel="stylesheet" href="../stylesheets/course_style.css">
         <meta charset="UTF-8">
     </head>
 
@@ -62,6 +63,10 @@
                     <p>Source: <a href="https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_graphes#/media/Fichier:PipeNet.jpg">https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_graphes#/media/Fichier:PipeNet.jpg</a></p>
                 </div>
             </article>
+            <div id="NextSection">
+                <a href="../courses.php"><button>Liste des cours</button></a>
+                <a href="course2.php"><button>Graphes: Définitions et Notions</button></a>
+            </div>
         </section>
 
         <footer>
