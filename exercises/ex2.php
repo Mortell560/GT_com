@@ -77,7 +77,7 @@
                     </legend>
                     <form action="../exercises_corr/ex2_corr.php" method="post">
                         <label for="answer">Nombre de chemins:</label>
-                        <input type="text" name="answer" id="answer" placeholder="Ex: 20" required><br>
+                        <input type="number" name="answer" id="answer" placeholder="Ex: 20" required><br>
                         <input type="submit" value="Valider">
                     </form>
                 </fieldset>

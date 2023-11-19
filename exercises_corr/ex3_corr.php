@@ -68,6 +68,7 @@
                         $corr = 0;
                         if(isset($_POST['answer'])){
                             $u_ans = $_POST['answer'];
+                            $u_ans = str_replace(" ", "", $u_ans);
                             $ans = "1,6,2,4,3,12,10,11,8";
                             if ($u_ans == $ans){
                                 $corr++;
