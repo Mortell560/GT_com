@@ -2,7 +2,7 @@
     <head>
         <title>GT.com</title>
         <link rel="stylesheet" href="stylesheets/general_style.css">
-        
+        <link rel="stylesheet" href="stylesheets/courseList_style.css">
         <link rel="icon" href="images/GraphTheoryLogo.ico">
         <meta charset="utf-8">
     </head>
@@ -34,8 +34,9 @@
             <article>
                 <h1 id="Title">Choisissez votre cours</h1>
                 <ol class="selection">
-                    <li><a href="courses/course1.php">Histoire de la Théorie des Graphes</a></li>
-                    <li><a href="courses/course2.php">Les Graphes: Définitions et notions formelles</a></li>
+                    <li><a href="projects/maze.php">Maze (Difficulty: Easy)</a></li>
+                    <li><a href="projects/voronoi.php">Voronoi (Difficulty: Medium)</a></li>
+                    <li><a href="projects/graph_visualizer.php">Graph visualizer (Difficulty: Medium/Hard)</a></li>
                 </ol>
             </article>
         </section>
