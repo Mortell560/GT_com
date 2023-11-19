@@ -123,11 +123,6 @@
                         <td>Θ(degré(i))</td>
                     </tr>
                     <tr>
-                        <td>Accéder à l'arête (i,j)</td>
-                        <td>Θ(1)</td>
-                        <td>Θ(degré(i))</td>
-                    </tr>
-                    <tr>
                         <td>Parcourir les arêtes</td>
                         <td>Θ(n²)</td>
                         <td>Θ(m)</td>
