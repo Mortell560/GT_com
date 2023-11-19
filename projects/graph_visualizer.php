@@ -31,7 +31,32 @@
 
         <section>
             <article>
-                
+                <h1>
+                    Graph Visualizer (Problème libre)
+                </h1>
+
+                <p>
+                    Le but de ce projet est de créer un outil permettant de visualiser des graphes.
+                </p>
+                <p>
+                    Il y a deux parties dans ce projet : la partie "front-end" et la partie "back-end".
+                </p>
+                <p>
+                    La partie "front-end" est la partie qui sera visible par l'utilisateur. Elle permettra de créer des graphes, de les modifier, de les sauvegarder, de les charger, etc.
+                </p>
+
+                <p>
+                    La partie "back-end" est la partie qui sera invisible par l'utilisateur. Elle permettra de stocker les graphes, de les modifier, de les charger, etc.
+                </p>
+
+                <p>
+                    Le choix des langages pour le front-end et le back-end est libre. Cependant, il est conseillé d'utiliser un langage orienté objet pour le back-end. (à moins d'être fort en programmation fonctionnel ou en bash).
+                </p>
+
+                <p>Le but principal sera d'avoir la capacité de voir "en live" les parcours de graphe de différents algorithmes demandés par l'utilisateur. Une version plus ambitieuse serait de demander à l'utilisateur son propre programme et le Visualizer pourra l'exécuter</p>
+
+                <p>Un exemple en python ci-dessous:</p>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7MQ19mADAV8?si=kRQMZgFjxy6O5ghT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </article>
         </section>
 
