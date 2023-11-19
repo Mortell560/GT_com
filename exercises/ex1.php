@@ -2,6 +2,7 @@
     <head>
         <title>GT.com</title>
         <link rel="stylesheet" href="../stylesheets/general_style.css">
+        <link rel="stylesheet" href="../stylesheets/exercice_style.css">
         <link rel="icon" href="../images/GraphTheoryLogo.ico">
         <meta charset="utf-8">
     </head>
@@ -30,8 +31,40 @@
             </div>
         </header>
 
+        <nav class="sidenav">
+            <a href="ex1.php">Exercice (Facile)</a>
+            <ul>
+                <li><a href=""></a></li>
+            </ul>
+            <a href="ex2.php">Exercice (Moyen)</a>
+            <ul>
+                <li><a href=""></a></li>
+            </ul>
+            <a href="ex3.php">Exercice (Difficile)</a>
+            <ul>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+
         <section>
             <article>
+                <h1>Commençons avec les bases:</h1>
+
+                <h2>
+                    1) Parcours en largeur et en longueur (BFS et DFS en anglais)
+                </h2>
+
+                <p>
+                    Pour réaliser un parcours en largeur, il faut utiliser une file (FIFO) et pour un parcours en profondeur, il faut utiliser une pile (LIFO).<br/>
+                    <ul>
+                        <li>Parcours en largeur: on commence par explorer un nœud source, puis ses successeurs, puis les successeurs non explorés des successeurs, etc.</li>
+                        <li>Parcours en profondeur: Il poursuit alors un chemin dans le graphe jusqu'à un cul-de-sac ou alors jusqu'à atteindre un sommet déjà visité. Il revient alors sur le dernier sommet où on pouvait suivre un autre chemin puis explore un autre chemin</li>
+                        <div class="img_source">
+                            <img src="../images/Depth-First-Search.gif" alt="DFS">
+                            <p>Source: <a href="https://en.m.wikipedia.org/wiki/File:Depth-First-Search.gif"> DFS (Wikipedia)</a></p>
+                        </div>
+                    </ul>
+                </p>
 
             </article>
         </section>

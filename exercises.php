@@ -2,6 +2,7 @@
     <head>
         <title>GT.com</title>
         <link rel="stylesheet" href="stylesheets/general_style.css">
+        <link rel="stylesheet" href="stylesheets/courseList_style.css">
         <link rel="icon" href="images/GraphTheoryLogo.ico">
         <meta charset="utf-8">
     </head>
@@ -32,14 +33,14 @@
 
         <section>
             <article>
-                <h1>
+                <h1 id="Title">
                     Choisissez un niveau d'exercice
                 </h1>
 
-                <ol>
-                    <li><a href="exercises/ex1.php">Exercice (Niveau facile)</a></li>
-                    <li><a href="exercises/ex2.php">Exercice (Niveau moyen)</a></li>
-                    <li><a href="exercises/ex3.php">Exercice (Niveau "difficile")</a></li>
+                <ol class="selection">
+                    <li style="background-color: green"><a href="exercises/ex1.php">Exercice (Niveau facile)</a></li>
+                    <li style="background-color: #DA9300"><a href="exercises/ex2.php">Exercice (Niveau moyen)</a></li>
+                    <li style="background-color: crimson"><a href="exercises/ex3.php">Exercice (Niveau "difficile")</a></li>
                 </ol>
             </article>
 
