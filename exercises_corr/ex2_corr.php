@@ -15,17 +15,7 @@
             <div class="navbar"> <!-- On utilisera div pour eviter le point generer par <ul> -->
                 <a href="../index.php">Home</a>
                 <a href="../courses.php">Cours</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Exercices
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                    <a href="../exercises.php">Liste des Exercices</a>
-                    <a href="../exercises/ex1.php">Ex facile</a>
-                    <a href="../exercises/ex2.php">Ex Moyen</a>
-                    <a href="../exercises/ex3.php">Ex "Hard"</a>
-                    </div>
-                </div>
+                <a href="../exercises.php">Exercices</a>
                 <a href="../projects.php">Projets</a>
                 <a href="../about.php">About</a>
             </div>
@@ -42,9 +32,10 @@
                 <li><a href="#Pedigre">Un problème beaucoup trop commun</a></li>
                 <li><a href="#Ex2">Exercice</a></li>
             </ul>
-            <a href="ex3.php">Exercice (Difficile)</a>
+            <a href="../exercises/ex3.php">Exercice (Difficile)</a>
             <ul>
-                <li><a href=""></a></li>
+                <li><a href="../exercises/ex3.php#Dijkstra">Algorithme de Dijkstra</a></li>
+                <li><a href="../exercises/ex3.php#Ex3">Exercice</a></li>
             </ul>
         </nav>
 

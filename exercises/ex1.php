@@ -29,11 +29,13 @@
             </ul>
             <a href="ex2.php">Exercice (Moyen)</a>
             <ul>
-                <li><a href=""></a></li>
+                <li><a href="ex2.php#Pedigre">Un problème beaucoup trop commun</a></li>
+                <li><a href="ex2.php#Ex2">Exercice</a></li>
             </ul>
             <a href="ex3.php">Exercice (Difficile)</a>
             <ul>
-                <li><a href=""></a></li>
+                <li><a href="ex3.php#Dijkstra">Algorithme de Dijkstra</a></li>
+                <li><a href="ex3.php#Ex3">Exercice</a></li>
             </ul>
         </nav>
 
@@ -73,9 +75,9 @@
                     </legend>
                     <form action="../exercises_corr/ex1_corr.php" method="post">
                         <label for="BFS">Parcours en largeur:</label>
-                        <input type="text" name="BFS" id="BFS" placeholder="Ex: 1,2,3,4,5,6,7,8,9,10"><br>
+                        <input type="text" name="BFS" id="BFS" placeholder="Ex: 1,2,3,4,5,6,7,8,9,10" required><br>
                         <label for="DFS">Parcours en profondeur:</label>
-                        <input type="text" name="DFS" id="DFS" placeholder="Ex: 1,2,3,4,5,6,7,8,9,10"><br>
+                        <input type="text" name="DFS" id="DFS" placeholder="Ex: 1,2,3,4,5,6,7,8,9,10" required><br>
                         <input type="submit" value="Valider">
                     </form>
                 </fieldset>

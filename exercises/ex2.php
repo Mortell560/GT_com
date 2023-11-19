@@ -15,17 +15,7 @@
             <div class="navbar"> <!-- On utilisera div pour eviter le point generer par <ul> -->
                 <a href="../index.php">Home</a>
                 <a href="../courses.php">Cours</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Exercices
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                    <a href="../exercises.php">Liste des Exercices</a>
-                    <a href="ex1.php">Ex facile</a>
-                    <a href="ex2.php">Ex Moyen</a>
-                    <a href="ex3.php">Ex "Hard"</a>
-                    </div>
-                </div>
+                <a href="../exercises.php">Exercices</a>
                 <a href="../projects.php">Projets</a>
                 <a href="../about.php">About</a>
             </div>
@@ -46,7 +36,8 @@
             </ul>
             <a href="ex3.php">Exercice (Difficile)</a>
             <ul>
-                <li><a href=""></a></li>
+                <li><a href="ex3.php#Dijkstra">Algorithme de Dijkstra</a></li>
+                <li><a href="ex3.php#Ex3">Exercice</a></li>
             </ul>
         </nav>
 
@@ -86,7 +77,7 @@
                     </legend>
                     <form action="../exercises_corr/ex2_corr.php" method="post">
                         <label for="answer">Nombre de chemins:</label>
-                        <input type="text" name="answer" id="answer" placeholder="Ex: 20"><br>
+                        <input type="text" name="answer" id="answer" placeholder="Ex: 20" required><br>
                         <input type="submit" value="Valider">
                     </form>
                 </fieldset>
