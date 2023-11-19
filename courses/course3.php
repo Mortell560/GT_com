@@ -20,9 +20,10 @@
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                    <a href="../Exercices.php">Liste des Exercices</a>
-                    <a href="#">Ex1</a>
-                    <a href="#">Ex2</a>
+                    <a href="../exercises.php">Liste des Exercices</a>
+                    <a href="../exercises/ex1.php">Ex facile</a>
+                    <a href="../exercises/ex2.php">Ex Moyen</a>
+                    <a href="../exercises/ex3.php">Ex "Hard"</a>
                     </div>
                 </div>
                 <a href="../projects.php">Projets</a>
