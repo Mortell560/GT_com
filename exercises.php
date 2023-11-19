@@ -15,11 +15,11 @@
                 <a href="index.php">Home</a>
                 <a href="courses.php">Cours</a>
                 <div class="dropdown">
-                    <button class="dropbtn">Exercises
+                    <button class="dropbtn">Exercices
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                    <a href="exercises.php">Liste des exercises</a>
+                    <a href="Exercices.php">Liste des Exercices</a>
                     <a href="#">Ex1</a>
                     <a href="#">Ex2</a>
                     </div>
@@ -31,7 +31,13 @@
 
         <section>
             <article>
-                
+                <h1>
+                    Choisissez un niveau d'exercice
+                </h1>
+
+                <ol>
+                    <li><a href="Exercices/"></a></li>
+                </ol>
             </article>
 
         </section>
