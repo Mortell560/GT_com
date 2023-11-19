@@ -89,6 +89,10 @@ article h1 {
     text-align: center;
 }
 
+article ul li {
+    text-align: justify;
+}
+
 article p {
     text-align: justify;
 }
