@@ -74,7 +74,7 @@
                         if (isset($_POST['answer']))
                         {
                             $answer = $_POST['answer'];
-                            if ($answer == 44)
+                            if ($answer === 44)
                             {
                                 echo "<p style='color: green'>Bonne réponse</p>";
                             }

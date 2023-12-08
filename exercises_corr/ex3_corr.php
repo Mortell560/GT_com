@@ -73,7 +73,7 @@
                             if (sizeof($matches)==1){
                                 $u_ans = $matches[0];
                                 $ans = "1,6,2,4,3,12,10,11,8";
-                                if ($u_ans == $ans){
+                                if ($u_ans === $ans){
                                     $corr++;
                                 }
                                 else{
@@ -87,7 +87,7 @@
                         if(isset($_POST['cost'])){
                             $u_cost = $_POST['cost'];
                             $cost = 30;
-                            if ($u_cost == $cost){
+                            if ($u_cost === $cost){
                                 $corr++;
                             }
                             else{
