@@ -67,17 +67,26 @@
                 <p>Donnez le parcours en largeur et en profondeur du graphe ci-dessous (On commencera par le sommet "1") en utilisant un programme fait dans le langage de votre choix.</p>
                 <img src="../images/GraphEx1.png" alt="GraphEX1">
                 <br>
-                <fieldset id="1">
+                <fieldset>
+                    <?php
+                        echo "<legend style=\"color: green;\">Bravo, vous avez réussi l'exercice</legend>";
+                    ?>
+                </fieldset>
+                
+                <h2>Exo Bonus</h2>
+                <p>Donnez le parcours en largeur et en profondeur du graphe ci-dessous (On commencera par le sommet "1") en utilisant un programme fait dans le langage de votre choix.</p>
+                <img src="../images/GraphEx1Bonus.png" alt="GraphEX1Bonus" width="800px" height="200px">
+                <br>
+                <fieldset>
                     <?php
                         $corr = 0;
-                        if(isset($_POST['BFS']))
-                        {
-                            $BFS = $_POST['BFS'];
-                            $BFS = str_replace(' ','',$BFS);
-                            preg_match("/[0-9][^A-Z].*/i", $BFS, $matches);
+                        if(isset($_POST['BFS_B'])){
+                            $BFS_B = $_POST['BFS_B'];
+                            $BFS_B = str_replace(' ','',$BFS_B);
+                            preg_match("/[0-9][^A-Z].*/i", $BFS_B, $matches);
                             if (sizeof($matches)==1) {
-                                $BFS = $matches[0];
-                                $BFS_corr = "1,2,6,3,4,5,7";
+                                $BFS_B = $matches[0];
+                                $BFS_B_corr = "1,2,3,4,12,11,13,22,10,14,20,23,9,15,19,21,24,8,28,16,25,7,27,29,18,26,6,30,5";
                                 if ($BFS === $BFS_corr)
                                 {
                                     $corr++;
@@ -85,19 +94,17 @@
                                 else{
                                     echo "<p>Le parcours en largeur est faux</p>";
                                 }
+                                
                             }
-                            else{
-                                echo "<p>Le parcours en largeur est faux</p>";
-                            }
+                        
                         }
-                        if (isset($_POST['DFS']))
-                        {
-                            $DFS = $_POST['DFS'];
-                            $DFS = str_replace(' ','',$DFS);
-                            preg_match("/[0-9][^A-Z].*/i", $DFS, $matches);
+                        if (isset($_POST['DFS_B'])){
+                            $DFS_B = $_POST['DFS_B'];
+                            $DFS_B = str_replace(' ','',$DFS_B);
+                            preg_match("/[0-9][^A-Z].*/i", $DFS_B, $matches);
                             if (sizeof($matches)==1){
-                                $DFS = $matches[0];
-                                $DFS_corr = "1,2,3,4,6,5,7";
+                                $DFS_B = $matches[0];
+                                $DFS_B_corr = "1,2,3,4,12,11,10,9,8,7,6,5,28,27,29,13,14,15,16,18,20,19,21,22,23,24,25,26,30";
                                 if ($DFS === $DFS_corr)
                                 {
                                     $corr++;
@@ -106,73 +113,19 @@
                                     echo "<p>Le parcours en profondeur est faux</p>";
                                 }
                             }
-                            else{
-                                echo "<p>Le parcours en profondeur est faux</p>";
-                            }
                         }
                         if ($corr == 2)
                         {
-                            echo "<legend id=\"S\" style=\"color: green;\">Bravo, vous avez réussi l'exercice</legend>";
+                            echo "<legend style=\"color: green;\">Bravo, vous avez réussi l'exercice</legend>";
                         }
                         else{
-                            echo "<legend id=\"S\" style=\"color: red;\">Vous avez fait $corr/2</legend>";
+                            echo "<legend style=\"color: red;\">Dommage, vous n'avez pas réussi l'exercice. Note: $corr/2</legend>";
                         }
                     ?>
                 </fieldset>
-                <?php
-                    $corr = 0;
-                    if(isset($_POST['BFS']))
-                    {
-                        $BFS = $_POST['BFS'];
-                        $BFS = str_replace(' ','',$BFS);
-                        preg_match("/[0-9][^A-Z].*/i", $BFS, $matches);
-                        if (sizeof($matches)==1) {
-                            $BFS = $matches[0];
-                            $BFS_corr = "1,2,6,3,4,5,7";
-                            if ($BFS === $BFS_corr)
-                            {
-                                $corr++;
-                            }
-                            
-                        }
-                        
-                    }
-                    if (isset($_POST['DFS']))
-                    {
-                        $DFS = $_POST['DFS'];
-                        $DFS = str_replace(' ','',$DFS);
-                        preg_match("/[0-9][^A-Z].*/i", $DFS, $matches);
-                        if (sizeof($matches)==1){
-                            $DFS = $matches[0];
-                            $DFS_corr = "1,2,3,4,6,5,7";
-                            if ($DFS === $DFS_corr)
-                            {
-                                $corr++;
-                            }
-                            
-                        }
-                    }
-
-                    if ($corr == 2)
-                        {
-                            echo "<div id=\"Bonus\">
-                            <h2>Exo Bonus</h2>
-                            <p>Donnez le parcours en largeur et en profondeur du graphe ci-dessous (On commencera par le sommet \"1\") en utilisant un programme fait dans le langage de votre choix.</p>
-                            <img src=\"../images/GraphEx1Bonus.png\" alt=\"GraphEX1Bonus\" width=\"800px\" height=\"200px\">
-                            <br>
-                            <fieldset id=\"2\">
-                                <legend>Entrez vos réponses ci-dessous</legend>
-                                <form action=\"ex1_corr_Bonus.php\" method=\"post\">
-                                    <label for=\"BFS_B\">Parcours en largeur:</label>
-                                    <input type=\"text\" name=\"BFS_B\" id=\"BFS_B\" placeholder=\"Ex: 1,2,3,4,5,6,7,8,9,10\" required><br>
-                                    <label for=\"DFS_B\">Parcours en profondeur:</label>
-                                    <input type=\"text\" name=\"DFS_B\" id=\"DFS_B\" placeholder=\"Ex: 1,2,3,4,5,6,7,8,9,10\" required><br>
-                                    <input type=\"submit\" value=\"Valider\">
-                                </form>
-                            </fieldset>
-                        </div>";
-                        }
-                ?>
+                
+                
+                
             </article>
         </section>
         
