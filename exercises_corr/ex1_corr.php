@@ -74,10 +74,17 @@
                         {
                             $BFS = $_POST['BFS'];
                             $BFS = str_replace(' ','',$BFS);
-                            $BFS_corr = "1,2,6,3,4,5,7";
-                            if ($BFS === $BFS_corr)
-                            {
-                                $corr++;
+                            preg_match("/[0-9][^A-Z].*/i", $BFS, $matches);
+                            if (sizeof($matches)==1) {
+                                $BFS = $matches[0];
+                                $BFS_corr = "1,2,6,3,4,5,7";
+                                if ($BFS === $BFS_corr)
+                                {
+                                    $corr++;
+                                }
+                                else{
+                                    echo "<p>Le parcours en largeur est faux</p>";
+                                }
                             }
                             else{
                                 echo "<p>Le parcours en largeur est faux</p>";
@@ -87,10 +94,17 @@
                         {
                             $DFS = $_POST['DFS'];
                             $DFS = str_replace(' ','',$DFS);
-                            $DFS_corr = "1,2,3,4,6,5,7";
-                            if ($DFS === $DFS_corr)
-                            {
-                                $corr++;
+                            preg_match("/[0-9][^A-Z].*/i", $DFS, $matches);
+                            if (sizeof($matches)==1){
+                                $DFS = $matches[0];
+                                $DFS_corr = "1,2,3,4,6,5,7";
+                                if ($DFS === $DFS_corr)
+                                {
+                                    $corr++;
+                                }
+                                else{
+                                    echo "<p>Le parcours en profondeur est faux</p>";
+                                }
                             }
                             else{
                                 echo "<p>Le parcours en profondeur est faux</p>";

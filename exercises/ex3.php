@@ -24,8 +24,8 @@
         <nav class="sidenav">
             <a href="ex1.php">Exercice (Facile)</a>
             <ul>
-                <li><a href="#BFS_DFS">Parcours en largueur et en longueur</a></li>
-                <li><a href="#Ex1">Exercice</a></li>
+                <li><a href="ex1.php#BFS_DFS">Parcours en largueur et en longueur</a></li>
+                <li><a href="ex1.php#Ex1">Exercice</a></li>
             </ul>
             <a href="ex2.php">Exercice (Moyen)</a>
             <ul>
