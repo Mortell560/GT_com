@@ -87,7 +87,7 @@
                             if (sizeof($matches)==1) {
                                 $BFS_B = $matches[0];
                                 $BFS_B_corr = "1,2,3,4,12,11,13,22,10,14,20,23,9,15,19,21,24,8,28,16,25,7,27,29,18,26,6,30,5";
-                                if ($BFS === $BFS_corr)
+                                if ($BFS_B === $BFS_B_corr)
                                 {
                                     $corr++;
                                 }
@@ -105,7 +105,7 @@
                             if (sizeof($matches)==1){
                                 $DFS_B = $matches[0];
                                 $DFS_B_corr = "1,2,3,4,12,11,10,9,8,7,6,5,28,27,29,13,14,15,16,18,20,19,21,22,23,24,25,26,30";
-                                if ($DFS === $DFS_corr)
+                                if ($DFS_B === $DFS_B_corr)
                                 {
                                     $corr++;
                                 }
